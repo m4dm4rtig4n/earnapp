@@ -1,0 +1,13 @@
+apiVersion: v2
+appVersion: 3.0.3
+description: earnapp
+name: earnapp
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+maintainers:
+- name: m4dm4rtig4n
+  email: m4dm4rtig4n@gmail.com
+dependencies:
+- name: common
+  repository: https://library-charts.k8s-at-home.com
+  version: 4.0.1
